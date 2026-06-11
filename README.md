@@ -111,6 +111,8 @@ temp
 | Part | CAD Model |
 |------|--------|
 | Servo Mount | <a href="CAD/ServoMount.stl"> ServoMount.stl |
+| Camera Mount | <a href="CAD/CameraMount.stl"> CameraMount.stl |
+| BasePlate | <a href="CAD/BasePlateMount.stl"> BasePlateMount.stl |
 
 #### Open Source Parts
 | Part | CAD Model | Source |
