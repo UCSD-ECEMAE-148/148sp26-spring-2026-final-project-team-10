@@ -110,7 +110,7 @@ temp
 #### Modeled Ourselves
 | Part | CAD Model |
 |------|--------|
-| Servo Mount | <a href="ServoMount.stl"> ServoMount.stl |
+| Servo Mount | <a href="CAD/ServoMount.stl"> ServoMount.stl |
 
 #### Open Source Parts
 | Part | CAD Model | Source |
