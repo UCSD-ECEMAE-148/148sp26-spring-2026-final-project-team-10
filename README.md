@@ -110,13 +110,13 @@ temp
 #### Modeled Ourselves
 | Part | CAD Model |
 |------|--------|
-| Servo Mount | <a href="assets/Hazards.stl"> Hazards.stl |
+| Servo Mount | <a href="ServoMount.stl"> ServoMount.stl |
 
 #### Open Source Parts
 | Part | CAD Model | Source |
 |------|--------|-----------|
-| Gimbal | <img src="" /> | ------------------- |
-| Part | <img src="" /> | [Thingiverse](https://www.thingiverse.com/thing:3532828) |
+| Gimbal | <img src="" /> | [RobotShop](https://www.robotshop.com/products/lynxmotion-pan-and-tilt-kit-aluminium?pr_prod_strat=e5_desc&pr_rec_id=165fcfb55&pr_rec_pid=7487360368801&pr_ref_pid=7487361974433&pr_seq=uniform)|
+| Servo | <img src="" /> | [Amazon](https://www.amazon.com/Digital-Waterproof-Compatible-Crawler-Control/dp/B0C6LVX73M?th=1) |
 
 ### Software
 
