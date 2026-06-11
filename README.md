@@ -84,29 +84,23 @@ Team 10’s project focuses on the integration of a gimbaled OAK-D Lite to the b
 <!-- End Results -->
 ### Goals We Met
 <p>
-  The gps was setup inside the donkey environment, which is outside of ROS2(docker container). We struggled to make ROS2 communicate with the gps outside of the docker environment especially doing rerouting of the gps lap when a pedestrian is detected. Therefore, we decidced to make gps works inside ROS2 instead of in the donkey environment, and this has become our top priority since it would be a lot easier to use for the future classes. To do so, we figured the general workflow of the packages and nodes provided inside docker contianer, and we ended up pulling the original github repository from <a href="https://gitlab.com/ucsd_robocar2/ucsd_robocar_hub2">ucsd_robocar_hub2</a> to get necessary nodes. We found that it was missing the node of reading from gps, so we implemented the node for ublox gps from scratch called "ublox_gps_node.py" under the directory ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg/ucsd_robocar_sensor2_pkg/. We did a series of testing of the gps node to work with the existing files for the robot to follow gps coordinates. The overall workflow detail will be discussed in the Final Project Documentation sectoion.
+ Goals we met temporary
 </p>
 
 <p>
-  On the camera side, we self trained a model on roboflow to detect pedestrian by detecting any "foot" appearing in front of the oakd camera. This would be easier for camera to see if there is any people right in front of the camera instead of looking from a long distance to record a whole person. We created a package in ROS2 for the camera called "oakd_node.py" under ucsd_robocar_hub2/oakd_ros2/oakd_ros2/ to send detection message of "left", "right", or "none" to indicate which direction the pedestrian is moving, so the robocar can change its route accordingly. The picture below shows an example of the detection message being sent(also included in the presentation slides).
+  temp
   <img src="oakD_detection.png">
 </p>
 <p>
-  At the end, we didn't show the completed demo of robot car avoiding pedestrian while following the lap, but we have every parts(camera and gps) completed separately.
+  temp
 </p>
 
 
 ### If We Have Another Week...
 #### Goal 1
-Unfortunately we couldn't finish combining every part together for the robot car to avoid pedestrian while following the GPS path as we promised originally, but we have the GPS node and camera node completed in ROS2, we just need to make some changes to "gps_path_provider_node.py" under ucsd_robocar_hub2/ucsd_robocar_path2_pkg/ucsd_robocar_path2_pkg
-/ to activate conditions of path re-routing based on the "oakd_node.py" which publishes the detection data, so the robot car can turn either left or right and then go back into the original path, we would need to have a separate PID for this as well.
-
-<!-- We want to have chatgpt's path following trigger the manage.py drive command automatically so that chatgpt can navigate fully autonomous. We also want to have chatgpt only use one model instead of two seperated models. Finally, we want to turn the lidar data into a SLAM map and feed chatgpt an image map of its surroundings to generate better maps. -->
-
+temp
 #### Goal 2
-We would like to implement self parking using lidar and computer vision so the robot car can correct itself based on the space lines using the camera.
-<!--We want automatic lidar stopping to be implemented for safety. Since chatgpt does not control the robot in real time, we need a way for the robot to stop if it is about to hit an object or person.-->
-
+temp
 ## Final Project Documentation
 
 <!-- Early Quarter -->
