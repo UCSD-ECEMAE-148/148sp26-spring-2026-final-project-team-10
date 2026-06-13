@@ -70,7 +70,7 @@ Team 10 Winter 2025
 <ul>
   <li>Melvin Y - Mechanical Engineering - Class of 2028</li>
   <li>Youngyen L - Mechanical Engineering - Class of 2026</li>
-  <li>Yuxian X - Electrical Engineering </li>
+  <li>Yuxian X - Electrical Engineering - Class of 2026</li>
 </ul>
 
 <!-- Final Project -->
@@ -84,7 +84,7 @@ Team 10’s project focuses on the integration of a gimbaled OAK-D Lite to the b
 <!-- End Results -->
 ### Goals We Met
 <p>
- Goals we met temporary
+ We were able to get the gimbal working, as well as having the camera and gimbal communicate with each other, and tracking the AprilTags. We were also able to test between RGB video and AprilTags and were able to compare their Mean Absolute Error, Root Mean Squared Error, and Jitter.
 </p>
 
 <p>
