@@ -1,6 +1,6 @@
 # UCSD ECEMAE148 Team 10 Final Project 
 
-<img src="READMEassets/ucsd_ros2_logos.png">
+<img src="ucsd_ros2_logos.png">
 
 <div>
 
