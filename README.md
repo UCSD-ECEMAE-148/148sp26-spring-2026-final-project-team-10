@@ -190,7 +190,7 @@ Melvin Yu, Yushan X, Youngyen L
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-*Big thanks to Professor Jack Silberman, our TA Jose and Winston Chou, and thank you Jose and Winston for the ReadMe Templates!
+Big thanks to Professor Jack Silberman, our TA Jose and Winston Chou, and thank you Jose and Winston for the ReadMe Templates! And also to Team 12 for helping us out with hardware!
 
 
 <!-- CONTACT -->
