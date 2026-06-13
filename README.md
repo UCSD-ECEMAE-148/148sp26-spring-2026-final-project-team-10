@@ -1,4 +1,4 @@
-# UCSD ECEMAE148 Team 10 Final Project 
+# UCSD ECE/MAE148 Team 10 Final Project 
 
 <img src="ucsd_ros2_logos.png">
 
@@ -79,11 +79,11 @@ We also wanted to utilize LIDAR for obstacle avoidance and autonomous driving.
 <!-- End Results -->
 ### Goals We Met
 <p>
- We were able to get the gimbal working, as well as having the camera and gimbal communicate with each other, and tracking the AprilTags. We were also able to test between RGB video and AprilTags and were able to compare their Mean Absolute Error, Root Mean Squared Error, and Jitter. However, our scope was shrunken down due to the hardware setbacks that our team faced. We were on our third VESC as the first one smoked, the second one had poor connection pins, and our first Pi had also smoked, as well as numerous faulty wires that took time to be resoldered and rechecked. In the end, we were able to get it done. We were able to have the model through Roboflow to check a
+ We were able to get the gimbal working, as well as having the camera and gimbal communicate with each other, and tracking the AprilTags by moving the servos through basic PID in the code. We were also able to test between RGB video and AprilTags and were able to compare their Mean Absolute Error, Root Mean Squared Error, and Jitter. However, our scope was shrunken down due to the hardware setbacks that our team faced. We were on our third VESC as the first one smoked, the second one had poor connection pins, and our first Pi had also smoked, as well as numerous faulty wires that took time to be resoldered and rechecked. In the end, we were able to get it done. We were able to have the model through Roboflow to check for faces and the tags.
 </p> 
 
-<img src="AprilTag.png">
-<img src="hybridtracker.png">
+<img src="AprilTag.png" width="400">
+<img src="hybridtracker.png" width="400">
 
 <pre>
 Here are our final results of testing, using 100 data points at 50 cm:
@@ -139,7 +139,7 @@ Our car ran the default DonkeyCar with a joystick dongle for movement
 Below is our wiring schematic:
 
 
-<img src="wiring.png" />
+<img src="wiring.png" width="1000">
 
 
 
@@ -155,7 +155,7 @@ SSH into pi
 <pre>
 ssh -Y pi10@ucsdrobocar-148-10.local
 </pre>
-Copy file from pi to Docker container
+Copy the file from the Pi to the Docker container
 <pre>
 docker cp ~/master_vision_node.py Docker_Container:/home/projects/
 </pre>
