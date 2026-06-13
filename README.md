@@ -48,6 +48,7 @@ Team 10 Winter 2025
       </ul>
         <li><a href="#hardware">Hardware</a></li>
       </ul>
+    <li><a href="#final-project-gantt-chart">Final Project Gantt Chart</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
     <li><a href="#authors">Authors</a></li>
     <li><a href="#contact">Contact</a></li>
