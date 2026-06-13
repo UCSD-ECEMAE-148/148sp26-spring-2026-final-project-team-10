@@ -79,8 +79,12 @@ We also wanted to utilize LIDAR for obstacle avoidance and autonomous driving.
 <!-- End Results -->
 ### Goals We Met
 <p>
- We were able to get the gimbal working, as well as having the camera and gimbal communicate with each other, and tracking the AprilTags. We were also able to test between RGB video and AprilTags and were able to compare their Mean Absolute Error, Root Mean Squared Error, and Jitter.
-</p>
+ We were able to get the gimbal working, as well as having the camera and gimbal communicate with each other, and tracking the AprilTags. We were also able to test between RGB video and AprilTags and were able to compare their Mean Absolute Error, Root Mean Squared Error, and Jitter. However, our scope was shrunken down due to the hardware setbacks that our team faced. We were on our third VESC as the first one smoked, the second one had poor connection pins, and our first Pi had also smoked, as well as numerous faulty wires that took time to be resoldered and rechecked. In the end, we were able to get it done. We were able to have the model through Roboflow to check a
+</p> 
+
+<p>
+
+</p> 
 
 <pre>
 Here are our final results of testing, using 100 data points at 50 cm:
