@@ -120,8 +120,8 @@ The camera delay is noticeable, so testing what caused this delay would also ben
 #### Open Source Parts
 | Part | CAD Model | Source |
 |------|--------|-----------|
-| Gimbal | <img src="" /> | [RobotShop](https://www.robotshop.com/products/lynxmotion-pan-and-tilt-kit-aluminium?pr_prod_strat=e5_desc&pr_rec_id=165fcfb55&pr_rec_pid=7487360368801&pr_ref_pid=7487361974433&pr_seq=uniform)|
-| Servo | <img src="" /> | [Amazon](https://www.amazon.com/Digital-Waterproof-Compatible-Crawler-Control/dp/B0C6LVX73M?th=1) |
+| Gimbal | <img src="gimbal.png" /> | [RobotShop](https://www.robotshop.com/products/lynxmotion-pan-and-tilt-kit-aluminium?pr_prod_strat=e5_desc&pr_rec_id=165fcfb55&pr_rec_pid=7487360368801&pr_ref_pid=7487361974433&pr_seq=uniform)|
+| Servo | <img src="servo.png" /> | [Amazon](https://www.amazon.com/Digital-Waterproof-Compatible-Crawler-Control/dp/B0C6LVX73M?th=1) |
 
 ### Software
 <a href="master_vision_node.py"> master_vision_node.py
