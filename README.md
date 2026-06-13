@@ -134,6 +134,8 @@ Our car ran the default DonkeyCar with a joystick dongle for movement
 
 ### Hardware
 Below is our wiring schematic:
+
+
 <img src="wiring.png" />
 
 
