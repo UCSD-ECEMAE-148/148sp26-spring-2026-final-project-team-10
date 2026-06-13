@@ -79,7 +79,7 @@ We also wanted to utilize LIDAR for obstacle avoidance and autonomous driving.
 <!-- End Results -->
 ### Goals We Met
 <p>
- We were able to get the gimbal working, as well as having the camera and gimbal communicate with each other, and tracking the AprilTags by moving the servos through basic PID in the code. We were also able to test between RGB video and AprilTags and were able to compare their Mean Absolute Error, Root Mean Squared Error, and Jitter. However, our scope was shrunken down due to the hardware setbacks that our team faced. We were on our third VESC as the first one smoked, the second one had poor connection pins, and our first Pi had also smoked, as well as numerous faulty wires that took time to be resoldered and rechecked. In the end, we were able to get it done. We were able to have the model through Roboflow to check for faces and the tags.
+ We were able to get the gimbal working, as well as having the camera and gimbal communicate with each other, and tracking the AprilTags by moving the servos through basic PID in the code. We were also able to test between RGB video and AprilTags and were able to compare their Mean Absolute Error, Root Mean Squared Error, and Jitter. However, our scope was shrunken down due to the hardware setbacks that our team faced. We were on our third VESC as the first one smoked, the second one had poor connection pins, and our first Pi had also smoked, as well as numerous faulty wires that took time to be resoldered and rechecked. In the end, we were able to get it done. We were able to have the model trained through Roboflow to check for faces and tags.
 </p> 
 
 <img src="AprilTag.png" width="400">
@@ -107,7 +107,7 @@ Overall, the AprilTags were better at accurately gauging the depth, but had sign
 #### Goal 1
 Unfortunately, we were not able to test our OakD Lite by using a combination of RGB and AprilTags, so the next logical step would be to do this. And more data points, as well as varying the distances that were being tested, instead of just at 50 cm, would have given us even more data to compare the two with. 
 #### Goal 2
-Due to the sheer amount of hardware setbacks our team faced, we were not able to get around to using a LIDAR for obstacle avoidance, and that would be a nice upgrade to our robocar
+Due to the sheer amount of hardware setbacks our team faced, we were not able to get around to using a LIDAR for obstacle avoidance, and that would be a nice upgrade to our robocar. And also we should be able to combine our two Pis into one, since currently one Pi is responsible for driving and one is responsible for the camera.
 #### Goal 3
 The camera delay is noticeable, so testing what caused this delay would also benefit us.
 
