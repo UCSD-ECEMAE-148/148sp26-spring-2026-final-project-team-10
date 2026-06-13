@@ -177,6 +177,9 @@ python3 gimbal_controller_v3.py
 </pre>
 
 
+## Final Project Gantt Chart
+<img src="ganttchart.png" />
+
 <!-- Authors -->
 ## Authors
 
